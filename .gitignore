@@ -1,0 +1,66 @@
+# dependencies
+node_modules/
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# build folders
+dist/
+build/
+
+# Vite
+.vite/
+
+# coverage
+coverage/
+
+# cache
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# temporary files
+*.tmp
+*.temp
+
+# generated files
+*.pid
+*.seed
+*.pid.lock
+
+# uploads
+uploads/
+
+# optional
+package-lock.json
+
+# React/Node monorepo support
+client/node_modules/
+server/node_modules/
+
+client/dist/
+server/dist/
+
+# dotenv
+.env*
+
+# misc
+*.local
